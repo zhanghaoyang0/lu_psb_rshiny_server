@@ -26,10 +26,9 @@ Rscript shiny.r
 Once the above has completed, you will get a local website for PON-mt-tRNA: 
 
 You will see: 
-<video controls>
-  <source src="https://github.com/zhanghaoyang0/pon_mt_trna/blob/master/www/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+![动画描述](www/show.gif)
+
 
 
 # Run PON-mt-tRNA public (on the network)
