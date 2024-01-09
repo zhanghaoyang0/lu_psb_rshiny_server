@@ -4,8 +4,9 @@
 It is developed by Abhishek Niroula and Mauno Vihinen at 2016.  
 It have been published in *Nucleic Acids Res*, [paper link](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract).  
 
-Here is the R shiny server for `PON-mt-tRNA`. 
-Following the below instruction, you can run it locally (on your own computer) or public (make it available on the network). 
+We developed a R shiny server for `PON-mt-tRNA`. You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mt_trna/).  
+
+The code and data of this project are public available. If you are interested, you can following the below instruction, and run it locally (on your own computer) or public (make it available on the network). 
 
 
 # Requirements 
