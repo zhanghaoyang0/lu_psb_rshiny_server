@@ -1,11 +1,10 @@
 
-# PON-mt-tRNA
-`PON-mt-tRNA` is a posterior probability-based method for classification of mitochondrial tRNA variations.
-It is developed by Abhishek Niroula and Mauno Vihinen and published in [Nucleic Acids Res](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract) at 2016.
-
-
 # R shiny server for PON-mt-tRNA
-We make a R shiny server for `PON-mt-tRNA`. 
+`PON-mt-tRNA` is a posterior probability-based method for classification of mitochondrial tRNA variations.  
+It is developed by Abhishek Niroula and Mauno Vihinen at 2016.  
+It have been published in *Nucleic Acids Res*, [paper link](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract).  
+
+Here is the R shiny server for `PON-mt-tRNA`. 
 Following the below instruction, you can run it locally (on your own computer) or public (make it available on the network). 
 
 
