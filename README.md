@@ -24,13 +24,13 @@ Rscript shiny.r
 ```
 Then you will get a local website for PON-mt-tRNA.
 
-If you ope, you will see the introduction, datasets, and server: 
+If you open it, you will see the introduction, datasets, and server: 
 
 ![show](www/show.gif)
 
 
 # Run PON-mt-tRNA public (on the network)
-If you want to deposit PON-mt-tRNA in a port (e.g., 8503 in the example) of your own (public-access) server (e.g., xxx.com): 
+You can deposit PON-mt-tRNA with docker, if you have a in a public-access server: 
 ``` 
 docker pull zhanghaoyang0/rshiny
 docker run -itd -p 8503:3838 -v path_of_pon_mt_trna:/srv/shiny-server/pon_mt_trna zhanghaoyang0/rshiny
