@@ -1,9 +1,0 @@
-mt-tRNA	Variation	ML_probability_of_pathogenicity	Evidence	Posterior_probability_of_pathogenicity	Classification
-Ser(UCN)	7505,A,G	0.46	NA, NA, NA		Likely neutral
-Ser(UCN)	7505,A,G	0.46	1, NA, NA	0.66	VUS
-Lys	8300,T,C	0.45	NA, 1, NA	0.87	VUS
-Ala	5644,T,C	0.56	0, NA, 1	0.56	VUS
-Ala	5644,T,A	0.56	0, NA, 0	0.01	Likely neutral
-Ala	5644,T,C	0.56	1, 1, 1	0.99	Pathogenic
-Pro	15984,A,T	0.52	NA, NA, NA		Likely pathogenic
-Pro	15984,A,C	0.52	0, 0, 1	0.13	VUS
