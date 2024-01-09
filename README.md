@@ -27,7 +27,7 @@ Once the above has completed, you will get a local website for PON-mt-tRNA:
 
 You will see: 
 <video controls>
-  <source src="www/video.mp4" type="video/mp4">
+  <source src="https://github.com/zhanghaoyang0/pon_mt_trna/blob/master/www/video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
