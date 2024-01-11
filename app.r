@@ -166,8 +166,17 @@ server = shinyServer(function(input, output) {
   output$table_pred <- DT::renderDataTable({
     data()
   }, options = list(pageLength = 10, scrollX = TRUE))
-  
 
+
+
+  output$download_pred <- downloadHandler(
+    filename = function(){
+      "prediction.csv"
+    },
+    content = function(file){
+      write.csv(data(),file,row.names = F)
+    }
+  )
 })
 
 
