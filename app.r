@@ -29,7 +29,7 @@ ui = shinyUI(navbarPage(
           , em('Nucleic Acids Res'), '. (2016) 44(5): 2020-2027.', 
           a(href = "http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract", 'Paper link'),
           h3('Comment and feedback'),
-          'The server is maintain by Haoyang Zhang. If you meet have questions, add an issue at',
+          'The server is maintain by Haoyang Zhang. If you have questions, add an issue at',
           a(href = "https://github.com/zhanghaoyang0/pon_mt_trna", 'Github'),
           'or send an email to haoyang.zhang@med.lu.se',
           br(), br(), img(src = "pon_mtRNA_logo.png",   height = "150px", width = "150px", align = "center",  alt = "logo"))
