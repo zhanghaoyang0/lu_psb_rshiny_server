@@ -13,7 +13,7 @@ The code and data of this project are public available. If you are interested, y
 - `Linux` with `docker` (If you want to make it available on the network).
 - `R (4.2.3)` with `shiny(1.8.0)`, `shinydashboard(0.7.2)`, `DT(0.28)`, `digest(0.6.33)`.
 - `Python (3.12.0)` with `pandas(2.1.4)`.
-The versions we used are in brackets. Please note that the versions do not necessarily have to be the same. However, if you encounter an error, please check the version.
+The versions we used are in brackets. Please note that the versions do not necessarily have to be the same. 
 
 
 # Run PON-mt-tRNA locally
