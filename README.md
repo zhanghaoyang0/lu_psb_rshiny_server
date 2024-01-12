@@ -1,9 +1,9 @@
 # R shiny server for LU PSB
-The Protein Structure and Bioinformatics Lab of Lund University (LU PSB]) hosted by [Prof. Mauno Vihinen](https://portal.research.lu.se/en/persons/mauno-vihinen) develops methods and performs analyses to understand biological and medical phenomena at genetic, functional, mechanical and systems level. You can visit our website at [here](https://structure-next.med.lu.se/). 
+The Protein Structure and Bioinformatics Lab of Lund University (LU PSB) hosted by [Prof. Mauno Vihinen](https://portal.research.lu.se/en/persons/mauno-vihinen) develops methods and performs analyses to understand biological and medical phenomena at genetic, functional, mechanical and systems level. You can visit our website at [here](https://structure-next.med.lu.se/). 
 
-We provide R shiny server for multiple tools. All code and data of are public available. If you are interested, you can following the below instruction, and run it locally (on your own computer) or public (make it available on the network). 
+We provide R shiny server for multiple tools. All code and data of are public available. 
 
-# Tools in LU PSB R shiny server
+# Visit our online server
 *`PON-mt-tRNA` is a posterior probability-based method for classification of mitochondrial tRNA variations. 
 Reference: Abhishek Niroula and Mauno Vihinen. 
 PON-mt-tRNA: a multifactorial probability-based method for classification of mitochondrial tRNA variations.
@@ -22,7 +22,9 @@ PON-mt-tRNA: a multifactorial probability-based method for classification of mit
 *Nucleic Acids Res*. 2016. [paper link](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract).  
 You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mt_trna/). 
 
-# If you want to run locally 
+# Run them locally 
+If you are interested, you can following the below instruction to run them locally (on your own computer) or public (make it available on the network). 
+
 Here we use `PON-mt-tRNA` as an example. 
 ## Requirements 
 - `Linux` with `docker` (If you want to make it available on the network).
@@ -30,19 +32,19 @@ Here we use `PON-mt-tRNA` as an example.
 - `Python (3.12.0)` with `pandas(2.1.4)`.
 The versions we used are in brackets. Please note that the versions do not necessarily have to be the same. 
 
-## Run PON-mt-tRNA locally
+## Getting started
 Clone this repository via the commands:
 ```  
 git clone https://github.com/zhanghaoyang0/lu_psb_rshiny_server.git
 cd pon_mt_trna
 Rscript shiny.r
 ```
-Then you will get a local website for PON-mt-tRNA.
+Then you will get a local website for `PON-mt-tRNA`.
 
 If you open it, you will see the introduction, datasets, and server: 
-![show](www/show.gif)
+![show](pon_mt_trna/www/show.gif)
 
-## Run PON-mt-tRNA public (on the network)
+## Deposit in public-access server with docker
 You can deposit PON-mt-tRNA on the network if you have a in a public-access server: 
 ``` 
 docker pull zhanghaoyang0/rshiny
