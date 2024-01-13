@@ -22,7 +22,7 @@ Classification of amino acid substitutions in mismatch repair proteins using PON
 *Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22900).  
 You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mmr2/). 
 
-# Run them locally 
+# Run the server locally 
 If you are interested, you can following the below instruction to run them locally (on your own computer) or public (make it available on the network). 
 
 Here we use `PON-mt-tRNA` as an example. 
@@ -32,7 +32,7 @@ Here we use `PON-mt-tRNA` as an example.
 - `Python (3.12.0)` with `pandas(2.1.4)`.
 The versions we used are in brackets. Please note that the versions do not necessarily have to be the same. 
 
-## Getting started
+## Deposit in local computer
 Clone this repository via the commands:
 ```  
 git clone https://github.com/zhanghaoyang0/lu_psb_rshiny_server.git
