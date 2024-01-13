@@ -16,8 +16,8 @@ Characterization of all possible single nucleotide change-caused amino acid subs
 *Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22791).  
 You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_btk/).  
 
-*`PON-MMR2` is a machine-learning based tool that classifies amino acid substitutions in mismatch repair (MMR) proteins: MLH1, MSH2, MSH6 and PMS2.
-Reference: Abhishek Niroula and Mauno Vihinen. 
+*`PON-MMR2` is a machine-learning based tool that classifies amino acid substitutions in mismatch repair (MMR) proteins: MLH1, MSH2, MSH6 and PMS2.  
+Reference: Abhishek Niroula and Mauno Vihinen.  
 Classification of amino acid substitutions in mismatch repair proteins using PON-MMR2.
 *Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22900).  
 You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mmr2/). 
