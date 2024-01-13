@@ -1,5 +1,0 @@
-Gene	UniProtKB Accession	Amino acid substitution	Position	Original amino acid	New amino acid	Probability of pathogenicity	Classification	InSiGHT class
-MLH1	P40692	T116P	116	T	P	0.686	Pathogenic	Class 5
-MLH1	P40692	G101S	101	G	S	0.886	Pathogenic	Class 4
-MSH2	P43246	L310R	310	L	R	0.98	Pathogenic	nan
-MSH2	P43246	D487E	487	D	E	0.01	Neutral	nan
