@@ -8,8 +8,9 @@ library(digest)
 
 
 ui <- fluidPage(
-    tags$head(tags$title("PON-BT")),
-    h1('PON-BTK'),
+    tags$head(tags$title("PON-BTK")),
+    img(src = "pon_btk_logo.png", align = "center",  alt = "logo"),
+    h3('About PON-BTK'),
     'PON-BTK is a method for classifying variations in the kinase domain of Bruton tyrosine kinase (BTK) related to X-linked agammaglobulinemia (XLA) to disease-causing and harmful. 
     The method is using the semi-supervised classification method', 
     a(href = "https://cran.r-project.org/web/packages/upclass/index.html", "'upclass'"), 
@@ -27,9 +28,9 @@ ui <- fluidPage(
     a(href = "https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22791", 'Paper link'),
     h3('Comment and feedback'),
     'The server is maintain by Haoyang Zhang. If you have questions, add an issue at',
-    a(href = "https://github.com/zhanghaoyang0/pon_btk", 'Github'),
-    'or send an email to haoyang.zhang@med.lu.se',
-    br(), br(), img(src = "pon_btk_logo.png", align = "center",  alt = "logo")
+    a(href = "https://github.com/zhanghaoyang0/lu_psb_rshiny_server", 'our Github'),
+    'or send an email to haoyang.zhang@med.lu.se'
+    
   )
 
 

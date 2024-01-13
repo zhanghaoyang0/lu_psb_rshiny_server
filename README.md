@@ -16,11 +16,11 @@ Characterization of all possible single nucleotide change-caused amino acid subs
 *Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22791).  
 You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_btk/).  
 
-*`PON-MMR2` is a posterior probability-based method for classification of mitochondrial tRNA variations. 
+*`PON-MMR2` is a machine-learning based tool that classifies amino acid substitutions in mismatch repair (MMR) proteins: MLH1, MSH2, MSH6 and PMS2.
 Reference: Abhishek Niroula and Mauno Vihinen. 
-PON-mt-tRNA: a multifactorial probability-based method for classification of mitochondrial tRNA variations.
-*Nucleic Acids Res*. 2016. [paper link](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract).  
-You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mt_trna/). 
+Classification of amino acid substitutions in mismatch repair proteins using PON-MMR2.
+*Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22900).  
+You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mmr2/). 
 
 # Run them locally 
 If you are interested, you can following the below instruction to run them locally (on your own computer) or public (make it available on the network). 
@@ -36,7 +36,7 @@ The versions we used are in brackets. Please note that the versions do not neces
 Clone this repository via the commands:
 ```  
 git clone https://github.com/zhanghaoyang0/lu_psb_rshiny_server.git
-cd pon_mt_trna
+cd lu_psb_rshiny_server/pon_mt_trna
 Rscript shiny.r
 ```
 Then you will get a local website for `PON-mt-tRNA`.

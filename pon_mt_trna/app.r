@@ -30,7 +30,7 @@ ui = shinyUI(navbarPage(
           a(href = "http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract", 'Paper link'),
           h3('Comment and feedback'),
           'The server is maintain by Haoyang Zhang. If you have questions, add an issue at',
-          a(href = "https://github.com/zhanghaoyang0/pon_mt_trna", 'Github'),
+          a(href = "https://github.com/zhanghaoyang0/lu_psb_rshiny_server", 'our Github'),
           'or send an email to haoyang.zhang@med.lu.se',
           br(), br(), img(src = "pon_mtRNA_logo.png",   height = "150px", width = "150px", align = "center",  alt = "logo"))
       ),

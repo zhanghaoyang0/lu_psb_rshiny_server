@@ -1,0 +1,17 @@
+Gene	UniProtKB Accession	Amino acid substitution	Position	Original amino acid	New amino acid	Probability of pathogenicity	Classification	InSiGHT class
+MLH1	P40692	T116P	116	T	P	0.686	Pathogenic	Class 5
+MLH1	P40692	G101S	101	G	S	0.886	Pathogenic	Class 4
+MSH2	P43246	L310R	310	L	R	0.98	Pathogenic	
+MSH2	P43246	D487E	487	D	E	0.01	Neutral	
+
+
+How to cite PON-MMR2?
+Niroula A, Vihinen M. 2015. Classification of amino acid substitutions in mismatch repair proteins using PON-MMR2. Hum Mutat 36(12):1128-34.
+
+
+Disclaimer
+This non-profit server, its associated data and services are for research purposes only. The responsibility of Protein Structure and Bioinformatics Group, Lund University is limited to applying the best efforts in providing and publishing good programs and data. The developers have no responsibility for the usage of results, data or information which this server has provided.
+
+
+Liability
+In preparation of this site and service, every effort has been made to offer the most current and correct information possible. We render no warranty, express or implied, as to its accuracy or that the information is fit for a particular purpose, and will not be held responsible for any direct, indirect, putative, special, or consequential damages arising out of any inaccuracies or omissions. In utilizing this service, individuals, organizations, and companies absolve Lund University or any of their employees or agents from responsibility for the effect of any process, method or product or that may be produced or adopted by any part, notwithstanding that the formulation of such process, method or product may be based upon information provided here.
