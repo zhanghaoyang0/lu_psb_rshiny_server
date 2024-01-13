@@ -5,22 +5,22 @@ We provide R shiny server for multiple tools. C ode and data of are public avail
 
 # Visit our online server
 - `PON-mt-tRNA` is a posterior probability-based method for classification of mitochondrial tRNA variations. 
-Reference: Abhishek Niroula and Mauno Vihinen. 
+Reference:  
+Abhishek Niroula and Mauno Vihinen. 
 PON-mt-tRNA: a multifactorial probability-based method for classification of mitochondrial tRNA variations.
-*Nucleic Acids Res*. 2016. [paper link](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract).  
-You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mt_trna/).  
+*Nucleic Acids Res*. 2016. [paper link](http://nar.oxfordjournals.org/content/early/2016/02/02/nar.gkw046.abstract). [server link](http://lap676.srv.lu.se:8503/pon_mt_trna/).  
 
 - `PON-BTK` is a method for classifying variations in the kinase domain of Bruton tyrosine kinase (BTK) related to X-linked agammaglobulinemia (XLA) to disease-causing and harmful.  
-Reference: Jouni Väliaho, Imrul Faisal, Csaba Ortutay, C. I. Edvard Smith and Mauno Vihinen.
+Reference:  
+Jouni Väliaho, Imrul Faisal, Csaba Ortutay, C. I. Edvard Smith and Mauno Vihinen.
 Characterization of all possible single nucleotide change-caused amino acid substitutions in the kinase domain of Bruton tyrosine kinase.
-*Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22791).  
-You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_btk/).  
+*Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22791). [server link](http://lap676.srv.lu.se:8503/pon_btk/).  
 
 - `PON-MMR2` is a machine-learning based tool that classifies amino acid substitutions in mismatch repair (MMR) proteins: MLH1, MSH2, MSH6 and PMS2.  
-Reference: Abhishek Niroula and Mauno Vihinen.  
+Reference:  
+Abhishek Niroula and Mauno Vihinen.  
 Classification of amino acid substitutions in mismatch repair proteins using PON-MMR2.
-*Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22900).  
-You can visit the server at [here](http://lap676.srv.lu.se:8503/pon_mmr2/). 
+*Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22900). [server link](http://lap676.srv.lu.se:8503/pon_mmr2/). 
 
 # Run the server locally 
 If you are interested, you can following the below instruction to run them locally (on your own computer) or public (make it available on the network). 
