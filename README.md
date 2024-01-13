@@ -1,10 +1,10 @@
 # R shiny server for LU PSB
-The Protein Structure and Bioinformatics Lab of Lund University (LU PSB) hosted by [Prof. Mauno Vihinen](https://portal.research.lu.se/en/persons/mauno-vihinen) develops methods and performs analyses to understand biological and medical phenomena at genetic, functional, mechanical and systems level. You can visit our website at [here](https://structure-next.med.lu.se/). 
+The Protein Structure and Bioinformatics Lab of Lund University (LU PSB) hosted by [Prof. Mauno Vihinen](https://portal.research.lu.se/en/persons/mauno-vihinen) develops methods and performs analyses to understand biological and medical phenomena at genetic, functional, mechanical and systems level. You can visit the lab website at [here](https://structure-next.med.lu.se/). 
 
 We provide R shiny server for multiple tools. C ode and data of are public available. 
 
 # Visit our online server
-`PON-mt-tRNA` is a posterior probability-based method for classification of mitochondrial tRNA variations. 
+`PON-mt-tRNA` is a posterior probability-based method for classification of mitochondrial tRNA variations.  
 Reference  
 Abhishek Niroula and Mauno Vihinen.  
 PON-mt-tRNA: a multifactorial probability-based method for classification of mitochondrial tRNA variations.
