@@ -19,7 +19,7 @@ ui <- fluidPage(
     'The PON-P probabilities of pathogenicity were obtained directly from PON-P output and the consensus pathogenicity is the proportion of pathogenic predictions of the methods having Matthews correlation coefficient (MCC) > 0.5. The precalculated results (see below) include in addition to the PON-BTK prediction also other information about the variants.', 
     h3('Query PON-BTK predictions'),
     DT::dataTableOutput("table_pred"),
-    downloadButton("download_pred", "Download all PON-BTK predictions"),
+    br(), a(href = "pon_btk_predictions.csv", 'Download all predictions'), 
     h3('Reference'),
     'Jouni Väliaho, Imrul Faisal, Csaba Ortutay, C. I. Edvard Smith and',
     a(href = "https://portal.research.lu.se/en/persons/mauno-vihinen", 'Mauno Vihinen.'),
