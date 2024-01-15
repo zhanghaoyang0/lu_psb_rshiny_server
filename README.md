@@ -23,11 +23,11 @@ Classification of amino acid substitutions in mismatch repair proteins using PON
 *Hum Mutat*. 2015. [paper link](https://onlinelibrary.wiley.com/doi/full/10.1002/humu.22900). [server link](https://structure-next.med.lu.se/pon_mmr2/). 
 
 # Run the server locally 
-If you are interested, you can following the below instruction to run them locally (on your own computer) or public (make it available on the network). 
+If you are interested, you can following the below instruction to run them locally (on your own computer). 
 
 Here we use `PON-mt-tRNA` as an example. 
 ## Requirements 
-- `Linux` with `docker` (If you want to make it available on the network).
+- `Linux`.
 - `R (4.2.3)` with `shiny(1.8.0)`, `shinydashboard(0.7.2)`, `DT(0.28)`, `digest(0.6.33)`.
 - `Python (3.12.0)` with `pandas(2.1.4)`.
 The versions we used are in brackets. Please note that the versions do not necessarily have to be the same. 
@@ -43,15 +43,6 @@ Then you will get a local website for `PON-mt-tRNA`.
 
 If you open it, you will see the introduction, datasets, and server: 
 ![show](pon_mt_trna/www/show.gif)
-
-## Deposit in public-access server with docker
-You can deposit PON-mt-tRNA on the network if you have a in a public-access server: 
-``` 
-docker pull zhanghaoyang0/rshiny
-path="/path_of/lu_psb_rshiny_server"
-docker run -itd -p 8503:3838 -v ${path}:/srv/shiny-server zhanghaoyang0/rshiny
-``` 
-Then, you can visit PON-mt-tRNA in a port of your server (e.g., xxx.com:8503).
 
 
 # Feedback and comments
