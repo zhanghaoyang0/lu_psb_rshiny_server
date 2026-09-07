@@ -1,0 +1,81 @@
+# check the sock
+ls -l /var/run/docker.sock
+
+# start shiny docker
+docker pull zhanghaoyang0/rshiny:latest
+
+docker_rm rshiny
+path="/srv/data/website/structure_static/lu_psb_rshiny_server"
+path_db="/home/ha0214zh/db/protein"
+
+docker run -itd -p 8503:3838 \
+--user root \
+--name rshiny \
+-v ${path}:/srv/shiny-server \
+-v ${path_db}:/srv/shiny-server/db/ \
+-v /var/run/docker.sock:/var/run/docker.sock \
+zhanghaoyang0/rshiny:latest
+
+# in shiny docker start transvar docker
+docker exec -it rshiny bash
+cd /srv/shiny-server/pon_del/
+ls /srv/shiny-server/db/ 
+
+docker run -d -v /home/ha0214zh/soft/vep/genome/:/ref \
+    -v /srv/data/website/structure_static/lu_psb_rshiny_server/pon_del/temp:/temp \
+    --name transvar_forPonDel zhouwanding/transvar:latest tail -f /dev/null
+
+# set permission the same
+chmod 777 temp
+id shiny
+getent group docker
+
+
+# check log
+docker logs a3ea5177f319 | tail -50
+
+# push
+docker_id='2c3f8d6a964d'
+docker login
+docker commit $docker_id zhanghaoyang0/rshiny:latest
+docker push zhanghaoyang0/rshiny:latest
+
+
+# ==========================================
+# check pipeline
+# ==========================================
+# check pipeline
+sudo -u shiny bash
+task_id="protein_del"; input_type="protein"
+task_id="genomic_del"; input_type="genomic"
+task_id="transcript_del"; input_type="transcript"
+
+sh code/pipeline.sh $task_id $input_type
+
+# make transvar input
+Rscript code/01_transvarInput.r $task_id $input_type
+head temp/${task_id}_transvarInput.txt
+
+# run transvar
+sh code/02_transvar.sh $task_id $input_type
+head temp/${task_id}_transvarOutput.txt
+
+# add features
+Rscript code/03_addfeat.r $task_id $input_type
+head temp/${task_id}_withfeat.csv
+
+# predict
+python3 code/04_predict.py $task_id
+head temp/${task_id}_predictions.csv
+
+# ==========================================
+# example files
+# ==========================================
+# protein_del
+NP_id,start,end
+NP_000008.1,104,104
+NP_000009.1,299,299
+NP_000009.1,276,283
+NP_000009.1,504,505
+NP_570602.2,3,3
+NP_570602.2,4,5
